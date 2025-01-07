@@ -7,7 +7,7 @@ const students = [];
             const district = document.getElementById("district").value;
 
             if (!name || isNaN(age) || !state || !district) {
-                alert("Please fill all the fields.");
+                alert("Please fill all thhe fields.");
                 return;
             }
 
